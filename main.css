@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Pochaevsk&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    user-select: none;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.533);
+    color: white;
+}
+
+.nav.scrolled {
+    background-color: maroon;
+}
+
+.nav h1 {
+    position: absolute;
+    left: 8%;
+    font-size: x-large;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.nav span {
+    font-size: xx-large;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 4%;
+    padding: 0;
+    margin: 10px 0;
+    font-weight: 200;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 5px 25px;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.nav .active {
+    text-decoration: underline 4px #b07705;
+    text-underline-offset: 5px;
+}
+
+.nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+
+    &:hover {
+        color: #b07705;
+    }
+
+}
+
+
+.main {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+
+}
+
+.video {
+    height: 95vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+
+
+}
+
+.mid {
+    background: url(https://cdn.wallpapersafari.com/7/42/H9XJmy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rajasthan {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding-top: 30px;
+
+}
+
+.para h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 2.5rem;
+    margin-top: 0;
+    padding-bottom: 10px;
+
+
+}
+
+.para {
+    width: 35%;
+    height: fit-content;
+    position: absolute;
+    z-index: 1;
+    left: 6%;
+    margin-top: 4%;
+    color: rgb(255, 255, 255);
+}
+
+.para p {
+    font-size: 1.2em;
+    font-family: "kau";
+    font-weight: lighter;
+    text-transform: uppercase;
+    line-height: 1.6;
+
+}
+
+.fimg,
+.simg,
+.timg {
+    height: 45vh;
+    width: 35vh;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.fimg {
+    position: absolute;
+    z-index: 1;
+    right: 18%;
+
+    &:hover {
+        transform: scale(1.2);
+        z-index: 3;
+    }
+}
+
+.simg {
+    position: absolute;
+    z-index: 2;
+    right: 12%;
+    margin-top: 16%;
+
+    &:hover {
+        transform: scale(1.2);
+        z-index: 3;
+    }
+}
+
+.timg {
+    position: absolute;
+    z-index: 0;
+    right: 30%;
+    margin-top: 10%;
+
+    &:hover {
+        transform: scale(1.2);
+        z-index: 3;
+    }
+}
+
+.rajasthan img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.places {
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    overflow: hidden;
+    filter: brightness(95%);
+    font-family: "Pochaevsk", serif;
+}
+
+.places h2 {
+    color: maroon;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 3rem;
+    margin-top: 50px;
+    text-decoration: none;
+
+}
+
+.firstline {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.places .card {
+    height: 65vh;
+    width: 20vw;
+    position: relative;
+    text-transform: uppercase;
+    background-color: white;
+    filter: brightness();
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.places img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.card .cont {
+    height: 40%;
+
+}
+
+.card .img {
+    height: 60%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card h3 {
+    text-transform: uppercase;
+    font-size: x-large;
+    margin-left: 10%;
+    font-weight: 200;
+    color: maroon;
+
+}
+
+.card p {
+    margin-left: 5%;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.places button {
+    border: 1px solid white;
+    border-radius: 1rem;
+    color: maroon;
+    font-size: 36px;
+    font-family: "Pochaevsk", serif;
+    text-transform: uppercase;
+    position: relative;
+    left: 7.5%;
+    width: 85vw;
+    margin-top: 20px;
+
+    &:hover {
+        background-color: maroon;
+        color: white;
+    }
+}
+
+footer {
+    padding-top: 5%;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    background-color: maroon;
+    color: white;
+}
+
+footer p {
+    font-family: "Pochaevsk", serif;
+    text-align: center;
+    padding: 0%;
+    margin-bottom: 0;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    margin-right: 1.5vw;
+    margin-bottom: 5vh;
+}
+
+.fa {
+    font-size: 26px;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 1px white solid;
+    border-radius: 30px;
+    justify-content: center;
+
+}
