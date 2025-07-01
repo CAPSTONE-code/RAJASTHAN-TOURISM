@@ -94,7 +94,7 @@ function current_time(date) {
 
 // loads posts from database
 async function load_posts() {
-    const response = await fetch(`http://localhost:3000/api/community`);
+    const response = await fetch(`https://capstone1-backend-siddhantv369-siddhantv369s-projects.vercel.app/api/community`);
     const posts = await response.json();
     let container = document.querySelector('.content');
     for (dat of posts) {
