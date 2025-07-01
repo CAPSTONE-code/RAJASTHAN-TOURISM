@@ -49,7 +49,7 @@ function loadCitiesData(data) {
 
 // Example data (replace this with your actual fetched data)
 async function loadGuides() {
-      const response = await fetch(`http://localhost:3000/api/tourist-guides?city=all`);
+      const response = await fetch(`https://capstone1-backend-siddhantv369-siddhantv369s-projects.vercel.app/api/tourist-guides?city=all`);
       const guides = await response.json();
       loadCitiesData(guides);
 }
