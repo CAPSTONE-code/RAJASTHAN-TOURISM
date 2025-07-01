@@ -1,6 +1,6 @@
 
 let cityArray=[]
-fetch('http://localhost:3000/api/hospitals').then(res => res.json()).then(data =>{
+fetch('https://capstone1-backend-siddhantv369-siddhantv369s-projects.vercel.app/api/hospitals').then(res => res.json()).then(data =>{
     const container = document.getElementById('hospital-list');
     for (const city in data) {
         const cityDiv = document.createElement('table');
