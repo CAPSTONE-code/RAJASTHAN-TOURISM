@@ -1,109 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAJASTHAN TOURISM</title>
 
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=location_on" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=location_on" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="places.css">
-    <script>
-        window.addEventListener('scroll', function() {
-            const nav = document.querySelector('.nav');
-            if (window.scrollY >0.95 * window.innerHeight) { // 90vh is equal to window.innerHeight
-                nav.classList.add('scrolled');
-            } else {
-                nav.classList.remove('scrolled');
-            }
-        });
-    </script>
-     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            let currentIndex = 0;
-            const slides = document.querySelectorAll('.slide');
-        
-            function showNextSlide() {
-                slides[currentIndex].classList.remove('active');
-                currentIndex = (currentIndex + 1) % slides.length;
-                slides[currentIndex].classList.add('active');
-            }
-        
-            // Ensure the first slide is visible on load
-            slides[currentIndex].classList.add('active');
-        
-            setInterval(showNextSlide, 3000);
-        });
-        </script>
+    
+
 </head>
+
 <body>
-   
     <header>
-        
+
         <div class="nav">
             <h1> R a j a s t h a n <span>||</span> T o u r i s m</h1>
-           <ul>
-            <li class="active"><a href="main.html">Home</a></li>
-            <li><a href="places.html">Places</a></li>
-            <li><a href="hospitals/hospitals.html">Health</a></li>
-            <li><a href="guides/guide.html">Guide</a></li>
-            <li><a href="sec/security.html">Security</a></li>
+            <ul>
+                <li class="active"><a href="main.html">Home</a></li>
+                <li><a href="places.html">Places</a></li>
+                <li><a href="hospitals/hospitals.html">Health</a></li>
+                <li><a href="guides/guide.html">Guide</a></li>
+                <li><a href="sec/security.html">Security</a></li>
             </ul>
         </div>
     </header>
     <main>
         <div class="slider-container">
-            <div class="slide active"><img src="luxurypalaces.jpg" alt="Slide 1"></div>
+            <!-- <div class="slide active"><img src="luxurypalaces.jpg" alt="Slide 1"></div> -->
             <div class="slide"><img src="https://wallpapercave.com/wp/wp4021327.jpg" alt="Slide 2"></div>
             <div class="slide"><img src="https://wallpaperaccess.com/full/1905901.jpg" alt="Slide 3"></div>
         </div>
         <div class="outer">
             <h1>--EXPLORE RAJASTHAN...</h1>
 
-            
-            
+
+
         </div>
         <hr class="outerhr">
-        
+
         <div class="cities">
+            <dialog class="fact">
+                <div class="wrapper">Do you know Jaipur is also known as Parisof India.</div>
+            </dialog>
             <h1 class="mainh"> places to visit..</h1>
             <hr class="mainhr">
             <div class="one">
                 <div class="cont">
                     <div class="img">
-                        <img src="https://cdn.pixabay.com/photo/2020/05/04/19/15/amer-fort-5130258_1280.jpg" alt="" srcset="">
+                        <img src="https://cdn.pixabay.com/photo/2020/05/04/19/15/amer-fort-5130258_1280.jpg" alt=""
+                            srcset="">
                     </div>
                     <div class="heading">
                         <h1>j a i p u r, <span> the pink city</span></h1>
                         <hr>
-                        <p class="info"><span class="namespan">jaipur,</span> the capital of Rajasthan, is a mmesmerizing blend of ancient heritage and modern
+                        <button class="fact-button" id="Jaipur">fun fact</button>
+                        <p class="info"><span class="namespan">jaipur,</span> the capital of Rajasthan, is a
+                            mmesmerizing blend of ancient heritage and modern
                             charm. Fondly known as the "Pink City," its streets adorned with hues of pink invite you to
                             immerse yourself in the opulence of Rajputana grandeur. The city houses two UNESCO World
                             Heritage Sites: Jantar Mantar and Amber Fort.</p>
                         <ul>City Tour Highlights:
-                            <li>Hawa Mahal(Palace of Winds) .. 
-                                <a href="https://maps.app.goo.gl/egm3fZyAwGED5v3u7"> 
+                            <li>Hawa Mahal(Palace of Winds) ..
+                                <a href="https://maps.app.goo.gl/egm3fZyAwGED5v3u7">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>City Palace ..
-                                <a href="https://maps.app.goo.gl/bF8FDjp5hDeCqB486"> 
+                                <a href="https://maps.app.goo.gl/bF8FDjp5hDeCqB486">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Nahargarh Fort ..
-                                <a href="https://maps.app.goo.gl/b2PadrWnoMzVdcC36"> 
+                                <a href="https://maps.app.goo.gl/b2PadrWnoMzVdcC36">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Albert Hall Museum ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
@@ -113,81 +96,88 @@
                     </div>
                 </div>
                 <p class="subcont">
-                            <span class="namespan">Jaipur</span> is a popular tourist destination and a commercial trade centre with major road, rail,
-                            and air connections. Industries include engineering and metalworking, hand-loom
-                            weaving, distilling, and the manufacture of glass, hosiery, carpets, blankets, shoes, and
-                            drugs. Jaipur’s famous arts and crafts include the making of jewelry, enamel, metalwork,
-                            and printed cloths, as well as stone, marble, and ivory <br>
-                            <br>
-                            A walled town surrounded (except to the south) by hills, the city was founded in
-                            1727 by Maharaja Sawai Jai Singh to replace nearby Amber (now Amer, a part of
-                            Jaipur) as the capital of the princely state of Jaipur (founded by the Rajputs in
-                            the 12th century CE). Jaipur grew dramatically in size in the late 20th and early
-                            21st centuries, doubling its population between 1991 and 2011. It has a mixed
-                            Hindu-Muslim population. The city was the site of numerous bombing attacks in
-                            the early 21st century, with mosques and Hindu temples being targets.
-                         </p>
+                    <span class="namespan">Jaipur</span> is a popular tourist destination and a commercial trade centre
+                    with major road, rail,
+                    and air connections. Industries include engineering and metalworking, hand-loom
+                    weaving, distilling, and the manufacture of glass, hosiery, carpets, blankets, shoes, and
+                    drugs. Jaipur’s famous arts and crafts include the making of jewelry, enamel, metalwork,
+                    and printed cloths, as well as stone, marble, and ivory <br>
+                    <br>
+                    A walled town surrounded (except to the south) by hills, the city was founded in
+                    1727 by Maharaja Sawai Jai Singh to replace nearby Amber (now Amer, a part of
+                    Jaipur) as the capital of the princely state of Jaipur (founded by the Rajputs in
+                    the 12th century CE). Jaipur grew dramatically in size in the late 20th and early
+                    21st centuries, doubling its population between 1991 and 2011. It has a mixed
+                    Hindu-Muslim population. The city was the site of numerous bombing attacks in
+                    the early 21st century, with mosques and Hindu temples being targets.
+                </p>
             </div>
             <div class="one">
                 <div class="cont">
                     <div class="img">
-                        <img src="sources/jodhpur2.jpeg" alt="" srcset=""></div>
-                        <div class="heading">
-                            <h1>j o d h p u r, <span> the blue city</span></h1>
-                            <hr>
-                            <p class="info"><span class="namespan">Jodhpur,</span> the "Blue City" of Rajasthan, casts a spell with its azure-hued architecture and
-                                regal history. Nestled on the edge of the Thar Desert, this city captivates visitors with its
-                                majestic forts, ornate palaces, and the vibrant buzz of its bustling markets. </p>
-                            <ul>City Tour Highlights:
-                                <li>Mehrangarh Fort ..
-                                    <a href="https://maps.app.goo.gl/s91ueYVdxJMeTiz36"> 
-                                        <span class="material-symbols-outlined">
-                                            location_on
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>Old Blue City ..
-                                    <a href="https://maps.app.goo.gl/HhqxSQBSfSrHo25z7"> 
-                                        <span class="material-symbols-outlined">
-                                            location_on
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>Jaswant Thada ..
-                                    <a href="https://maps.app.goo.gl/i4jyw5Kp2WM41UE88"> 
-                                        <span class="material-symbols-outlined">
-                                            location_on
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>Umaid Bhawan Palace Museum ..
-                                    <a href="https://maps.app.goo.gl/4R1nmWFjCsiK4Xu1A"> 
-                                        <span class="material-symbols-outlined">
-                                            location_on
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                        <img src="sources/jodhpur2.jpeg" alt="" srcset="">
                     </div>
-                    <p class="subcont"><span class="namespan">Jodhpur,</span> formerly known as Marwar, the capital of the Rajput rulers, has long history of
-                        various traditions which are followed till date. Jodhpur city is one of the major cities of Rajasthan. It encompasses an area of 22,850
-                        sq.km and houses a population of 21,53,483. It is well connected to the rest of
-                        Rajasthan by airways, road and rail links. This city basks in the golden history and
-                        heritage of the state and is located at the fringe of the great Thar desert. The city was
-                        founded in 1459 A.D by the Rathore rulers. <br>
-                        <br>
-                        Located towards the western side of the capital city of Jaipur, this city is the second
-                        biggest city in the state of Rajasthan . Being a place of princely palaces, magnificent
-                        forts as well as age old temples, this city of Rajasthan is among the famous tourist
-                        destinations in the state as well as India. Positioned in the Thar Desert's stark
-                        landscape, Jodhpur experiences a bright and sunny weather all through the year. For
-                        this, the city is also known as "Sun City". One of the specialties of this metropolitan
-                        city is that almost all the houses based around the fort of Mehrangarh are painted in
-                        blue color, due to which the city is even known as the "Blue City”.
-                        
-                        </p>
+                    <div class="heading">
+                        <h1>j o d h p u r, <span> the blue city</span></h1>
+                        <hr>
+                        <button class="fact-button" id="Jodhpur">fun fact</button>
+                        <p class="info"><span class="namespan">Jodhpur,</span> the "Blue City" of Rajasthan, casts a
+                            spell with its azure-hued architecture and
+                            regal history. Nestled on the edge of the Thar Desert, this city captivates visitors with
+                            its
+                            majestic forts, ornate palaces, and the vibrant buzz of its bustling markets. </p>
+                        <ul>City Tour Highlights:
+                            <li>Mehrangarh Fort ..
+                                <a href="https://maps.app.goo.gl/s91ueYVdxJMeTiz36">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span>
+                                </a>
+                            </li>
+                            <li>Old Blue City ..
+                                <a href="https://maps.app.goo.gl/HhqxSQBSfSrHo25z7">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span>
+                                </a>
+                            </li>
+                            <li>Jaswant Thada ..
+                                <a href="https://maps.app.goo.gl/i4jyw5Kp2WM41UE88">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span>
+                                </a>
+                            </li>
+                            <li>Umaid Bhawan Palace Museum ..
+                                <a href="https://maps.app.goo.gl/4R1nmWFjCsiK4Xu1A">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                <p class="subcont"><span class="namespan">Jodhpur,</span> formerly known as Marwar, the capital of the
+                    Rajput rulers, has long history of
+                    various traditions which are followed till date. Jodhpur city is one of the major cities of
+                    Rajasthan. It encompasses an area of 22,850
+                    sq.km and houses a population of 21,53,483. It is well connected to the rest of
+                    Rajasthan by airways, road and rail links. This city basks in the golden history and
+                    heritage of the state and is located at the fringe of the great Thar desert. The city was
+                    founded in 1459 A.D by the Rathore rulers. <br>
+                    <br>
+                    Located towards the western side of the capital city of Jaipur, this city is the second
+                    biggest city in the state of Rajasthan . Being a place of princely palaces, magnificent
+                    forts as well as age old temples, this city of Rajasthan is among the famous tourist
+                    destinations in the state as well as India. Positioned in the Thar Desert's stark
+                    landscape, Jodhpur experiences a bright and sunny weather all through the year. For
+                    this, the city is also known as "Sun City". One of the specialties of this metropolitan
+                    city is that almost all the houses based around the fort of Mehrangarh are painted in
+                    blue color, due to which the city is even known as the "Blue City”.
+
+                </p>
+            </div>
             <div class="one">
                 <div class="cont">
                     <div class="img">
@@ -196,37 +186,40 @@
                     <div class="heading">
                         <h1>u d a i p u r, <span> the city of lakes</span></h1>
                         <hr>
-                        <p class="info"><span class="namespan">Udaipur, </span>often hailed as the "City of Lakes," unfolds like a poetic panorama against
+                        <button class="fact-button" id="Udaipur">fun fact</button>
+                        <p class="info"><span class="namespan">Udaipur, </span>often hailed as the "City of Lakes,"
+                            unfolds like a poetic panorama against
                             the backdrop of the Aravalli Range. With its shimmering lakes, palatial architecture,
                             and timeless charm, Udaipur offers a romantic escape in the heart of Rajasthan</p>
                         <ul>City Tour Highlights:
                             <li>Lake Pichola ..
-                                <a href="https://maps.app.goo.gl/ZWbaStdjTszcCdDv7"> 
+                                <a href="https://maps.app.goo.gl/ZWbaStdjTszcCdDv7">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>City Palace ..
-                                <a href="https://maps.app.goo.gl/uZ7kMmjgpGneCEyc7"> 
+                                <a href="https://maps.app.goo.gl/uZ7kMmjgpGneCEyc7">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Jagdish Temple ..
-                                <a href="https://maps.app.goo.gl/jT96gadDgU6QNEun7"> 
+                                <a href="https://maps.app.goo.gl/jT96gadDgU6QNEun7">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
-                            
-                        </ul>       
+
+                        </ul>
                     </div>
                 </div>
                 <p class="subcont">
-                    <span class="namespan">Udaipur</span> city, southern Rajasthan state, northwestern India. It lies in the hills
+                    <span class="namespan">Udaipur</span> city, southern Rajasthan state, northwestern India. It lies in
+                    the hills
                     just east of the Aravalli Range, about 65 miles (100 km) southwest of Chittaurgarh. <br>
                     <br>
                     Udaipur (“City of Sunrise”) was made the capital of the princely state of Udaipur
@@ -235,7 +228,7 @@
                     in 1570. To the west lies Lake Pichola with its two small islands and marble
                     palaces, one of which served as a refuge for the Mughal emperor Shah Jahān
                     (reigned 1628–58) when, before his accession, he revolted against his father,
-                    Jahāngīr. One of the palaces has been turned into a luxury hotel. 
+                    Jahāngīr. One of the palaces has been turned into a luxury hotel.
                 </p>
             </div>
             <div class="one">
@@ -246,33 +239,35 @@
                     <div class="heading">
                         <h1>j a i s a l m e r,<span> the golden city</span></h1>
                         <hr>
-                        <p class="info"><span class="namespan">Jaisalmer, </span> aptly named the "Golden City," unfolds like a mirage amidst the vast Thar
+                        <button class="fact-button" id="Jaisalmer">fun fact</button>
+                        <p class="info"><span class="namespan">Jaisalmer, </span> aptly named the "Golden City," unfolds
+                            like a mirage amidst the vast Thar
                             Desert. This ancient citadel boasts sandstone architecture that glows like burnished
                             gold under the desert sun, creating an otherworldly spectacle.</p>
                         <ul>City Tour Highlights:
                             <li>Jaisalmer Havelis ..
-                                <a href=""> 
+                                <a href="">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Jaisalmer Fort ..
-                                <a href="https://maps.app.goo.gl/mknEMHUBW5yqcPuR9"> 
+                                <a href="https://maps.app.goo.gl/mknEMHUBW5yqcPuR9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Thar Desert ..
-                                <a href="https://maps.app.goo.gl/j3jKqtjp4mnJ8DH76"> 
+                                <a href="https://maps.app.goo.gl/j3jKqtjp4mnJ8DH76">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Gadisar Lake ..
-                                <a href="https://maps.app.goo.gl/NsDMtV2Bd424HvHJ6"> 
+                                <a href="https://maps.app.goo.gl/NsDMtV2Bd424HvHJ6">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
@@ -282,7 +277,8 @@
                     </div>
                 </div>
                 <p class="subcont">
-                    <span class="namespan">Jaisalmer, </span> town, western Rajasthan state, northwestern India. It is situated on a
+                    <span class="namespan">Jaisalmer, </span> town, western Rajasthan state, northwestern India. It is
+                    situated on a
                     level plain in the Thar (Great Indian) Desert, about 135 miles (215 km) northwest
                     of Jodhpur. <br>
                     <br>
@@ -299,38 +295,40 @@
             <div class="one">
                 <div class="cont">
                     <div class="img">
-                        <img src="https://truckguru.co.in/blog/wp-content/uploads/2019/08/Pushkar260C.png" alt="" srcset="">
+                        <img src="https://truckguru.co.in/blog/wp-content/uploads/2019/08/Pushkar260C.png" alt=""
+                            srcset="">
                     </div>
                     <div class="heading">
                         <h1>p u s h k a r, <span> the sacred oasis</span></h1>
                         <hr>
+                        <button class="fact-button" id="Pushkar">fun fact</button>
                         <p class="info">Nestled around the tranquil Pushkar Lake, Pushkar emerges as a sacred oasis
                             in the arid landscapes of Rajasthan. This ancient city, enveloped by hills and
                             dotted with ghats and temples, beckons both pilgrims and wanderers alike</p>
                         <ul>City Tour Highlights:
                             <li>Pushkar Lake and Ghats ..
-                                <a href="https://maps.app.goo.gl/4Lb4Vop3oDekQHxy7"> 
+                                <a href="https://maps.app.goo.gl/4Lb4Vop3oDekQHxy7">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
-                            <li>Brahma Temple  ..
-                                <a href="https://maps.app.goo.gl/bZ5SY9jr7PzEq6Gn8"> 
+                            <li>Brahma Temple ..
+                                <a href="https://maps.app.goo.gl/bZ5SY9jr7PzEq6Gn8">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Savitri Temple ..
-                                <a href="https://maps.app.goo.gl/rjJxTaZ1VYxv9KDB9"> 
+                                <a href="https://maps.app.goo.gl/rjJxTaZ1VYxv9KDB9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Pushkar Camel Fair ..
-                                <a href="https://maps.app.goo.gl/191aeq8fJNCsxe1i8"> 
+                                <a href="https://maps.app.goo.gl/191aeq8fJNCsxe1i8">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
@@ -340,7 +338,8 @@
                     </div>
                 </div>
                 <p class="subcont">
-                    <span class="namespan">Pushkar, </span> town, central Rajasthan state, northwestern India. It lies in the Aravalli
+                    <span class="namespan">Pushkar, </span> town, central Rajasthan state, northwestern India. It lies
+                    in the Aravalli
                     Range about 6 miles (10 km) northwest of Ajmer. <br>
                     <br>
                     The town is a pilgrimage centre that contains five temples, all of modern
@@ -357,26 +356,27 @@
                     <div class="heading">
                         <h1>b i k a n e r, <span> the desert jewel</span></h1>
                         <hr>
+                        <button class="fact-button" id="Bikaner">fun fact</button>
                         <p class="info">Situated in the heart of the Thar Desert, Bikaner stands as a testament to the
                             grandeur of Rajasthan. This desert jewel boasts a rich cultural heritage, magnificent
                             forts, and palaces that narrate tales of valour and royalty</p>
                         <ul>City Tour Highlights:
                             <li>Junagarh Fort ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Lalgarh Palace ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Karni Mata(Temple of Rats) ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
@@ -386,7 +386,8 @@
                     </div>
                 </div>
                 <p class="subcont">
-                    <span class="namespan">Bikaner, </span> city, north-central Rajasthan state, northwestern India. It lies in the
+                    <span class="namespan">Bikaner, </span> city, north-central Rajasthan state, northwestern India. It
+                    lies in the
                     Thar (Great Indian) Desert, about 240 miles (385 km) west of Delhi. <br>
                     <br>
                     The city was the capital of the former princely state of Bikaner. About 1465 Rao
@@ -396,46 +397,48 @@
                     The state adhered loyally to the Mughal emperors, who ruled in Delhi from 1526 to
                     1857. Rai Singh, who succeeded as chieftain of Bikaner in 1571 and ruled until 1612,
                     became one of the emperor Akbar’s most-distinguished generals and was named
-                    the first raja of Bikaner. 
+                    the first raja of Bikaner.
 
                 </p>
             </div>
             <div class="one">
                 <div class="cont">
                     <div class="img">
-                        <img src="https://thetravelhackinglife.com/wp-content/uploads/2019/08/shekhawati-havelis-india-11-1024x688.jpg" alt="" srcset="">
+                        <img src="https://thetravelhackinglife.com/wp-content/uploads/2019/08/shekhawati-havelis-india-11-1024x688.jpg"
+                            alt="" srcset="">
                     </div>
                     <div class="heading">
                         <h1>s h e k h a w a t i, <span> the open-air museum</span></h1>
                         <hr>
+                        <button class="fact-button" id="Shekhawati">fun fact</button>
                         <p class="info">Located in the heart of the Shekhawati region, Mandawa is a canvas of vibrant
                             frescoes and historical Havelis that tell tales of Rajasthan's rich cultural tapestry. This
                             artistic town is a treasure trove of heritage, offering a glimpse into the opulent past of
                             the Marwar merchants.</p>
                         <ul>City Tour Highlights:
                             <li>Mandawa Havelis ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Nawalgarh Havelis ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Fatehpur Havelis ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Mahansar Havelis ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
@@ -464,12 +467,15 @@
             <div class="one">
                 <div class="cont">
                     <div class="img">
-                        <img src="https://image-blog.comptoir.fr/inde/2019/11/608235.web_-1024x665.jpg" alt="" srcset="">
+                        <img src="https://image-blog.comptoir.fr/inde/2019/11/608235.web_-1024x665.jpg" alt=""
+                            srcset="">
                     </div>
                     <div class="heading">
                         <h1>b u n d i, <span> the historical gem</span></h1>
                         <hr>
-                        <p class="info"><span class="namespan">Bundi, </span> city, southeastern Rajasthan state, northwestern India. It is situated in a
+                        <button class="fact-button" id="Bundi">fun fact</button>
+                        <p class="info"><span class="namespan">Bundi, </span> city, southeastern Rajasthan state,
+                            northwestern India. It is situated in a
                             gorge surrounded by forested hills on which stand several palaces and forts. <br>
                             Bundi is said to have been named for Bunda, a 13th-century chieftain. The original
                             princely state of Bundi was known as Haraoti. It came under British paramountcy
@@ -477,21 +483,21 @@
                         </p>
                         <ul>City Tour Highlights:
                             <li>Garh Palace ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
-                             </li>
+                            </li>
                             <li>Taragarh Fort ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Raniji ki Baori(Queen's Stepwell) ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
@@ -509,32 +515,36 @@
                     <br>
                     Bundi exudes historical charm with its well-preserved architecture and captivating
                     tales of the bygone era. This quaint town, often overshadowed by its more prominent
-                    counterparts, offers a serene escape for history enthusiasts and culture seekers. 
+                    counterparts, offers a serene escape for history enthusiasts and culture seekers.
 
                 </p>
             </div>
             <div class="one">
                 <div class="cont">
                     <div class="img">
-                        <img src="https://www.myavidtravels.com/wp-content/uploads/2018/01/LRM_EXPORT_20171221_233305.jpg" alt="" srcset="">
+                        <img src="https://www.myavidtravels.com/wp-content/uploads/2018/01/LRM_EXPORT_20171221_233305.jpg"
+                            alt="" srcset="">
                     </div>
+
                     <div class="heading">
                         <h1>m o u n t - a b u, <span> the hill station</span></h1>
                         <hr>
-                        <p class="info">Perched in the lush embrace of the Aravalli Range, Mount Abu stands as the only hill
+                        <button class="fact-button" id="Mount Abu">fun fact</button>
+                        <p class="info">Perched in the lush embrace of the Aravalli Range, Mount Abu stands as the only
+                            hill
                             station in Rajasthan, offering a stark contrast to the arid landscapes of the state. Its
                             cool climate and picturesque surroundings make it a perfect escape for those
                             seeking respite from the desert heat.</p>
                         <ul>City Tour Highlights:
                             <li>Dilwara Temples ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
                                 </a>
                             </li>
                             <li>Nakki Lake ..
-                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9"> 
+                                <a href="https://maps.app.goo.gl/hTirRnoN55Rr1JXk9">
                                     <span class="material-symbols-outlined">
                                         location_on
                                     </span>
@@ -551,27 +561,34 @@
                     was the headquarters of the Rajputana Agency during the British rule of India; it
                     now has a police-training college. Guru Peak on Mount Abu (5,650 feet [1,722
                     metres]) is the highest point in the Aravalli Range. Pop. (2001) 22,152; (2011)
-                    22,943. 
+                    22,943.
                 </p>
             </div>
-            
+
         </div>
     </main>
     <footer>
         <h3>rajasthan tourism</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptatum, amet quos accusantium odit ipsa magni veritatis maio
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero corporis odio earum officiis laborum! Beatae quidem velit optio neque possimus sit,
-           tempora ipsum laborum minus corporis! Corporis dicta molestiae voluptatibus? res, laborum aliquid nobis tempore deleniti voluptatibus
-           rem quod aperiam! Quo, sapiente illo! Lorem ipsum dolor sit amet consectetur,<br>
-           <br>
-           <h4>connect us :</h4>
-           <ul><li>
-             <a href=""class = "fa fa-facebook"></a>
-             <a href=""class = "fa fa-instagram"></a>
-             <a href=""class = "fa fa-twitter"></a>
-           </li></ul>
-            &#169; all rights reserved to rajasthan tourism
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptatum, amet quos accusantium odit ipsa
+            magni veritatis maio
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero corporis odio earum officiis laborum! Beatae
+            quidem velit optio neque possimus sit,
+            tempora ipsum laborum minus corporis! Corporis dicta molestiae voluptatibus? res, laborum aliquid nobis
+            tempore deleniti voluptatibus
+            rem quod aperiam! Quo, sapiente illo! Lorem ipsum dolor sit amet consectetur,<br>
+            <br>
+        <h4>connect us :</h4>
+        <ul>
+            <li>
+                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-instagram"></a>
+                <a href="" class="fa fa-twitter"></a>
+            </li>
+        </ul>
+        &#169; all rights reserved to rajasthan tourism
         </p>
     </footer>
+    <script src="places.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,81 @@
+
+[
+  {
+    "location": "Jaipur",
+    "facts": [
+      "Jaipur is also known as Paris of India",
+      "Jaipur is considered the first planned city in India, built according to the principles of Vastu-Shastra, an ancient Indian system of architecture",
+      "Jaipur was recognized at the UNESCO world heritage site in 2019",
+      "Jaipur is a part of popular golden triangle tourist circuit along with Delhi and Agra"
+    ]
+  },
+  {
+    "location": "Jodhpur",
+    "facts": [
+      "Jodhpur's iconic blue color is a result of the traditional practices of painting houses particularly those of Brahmins, in blue to distinguish them from others",
+      "Umeed Bhawan Palace in Jodhpur is one of the largest private residences in the world it is still Home to the royal family of Jodhpur",
+      "Jodhpur is also known as Sun City due to its abundance of sunshine and bright days throughout the year",
+      "Jodhpur is famous for the rare Marwari or Malani breed of horses which are only found there"
+    ]
+  },
+  {
+    "location": "Udaipur",
+    "facts": [
+      "Udaipur is also known as “Venice of the east”",
+      "Udaipur is also known as “city of the lakes”",
+      "Udaipur is famous for its interconnected lakes, including lake Pichola, Fateh Sagar lake and Jaisamand lake",
+      "The Kumbhalgarh food Udaipur has the second-longest wall in the world after the Great Wall of China"
+    ]
+  },
+  {
+    "location": "Jaisalmer",
+    "facts": [
+      "Jaisalmer fort built by Rawal Jaisal is a UNESCO world Heritage site and one of the few living forts in the world",
+      "Jaisalmer is famous for its beautiful sandstone building that seem to shine in the sun, earning in the nickname “Golden city”",
+      "Jaisalmer is located in the Thar desert and is known for its sand dunes, camel rides, and desert Safari",
+      "In Jaisamer Sam Sand Dunes, a popular tourist spot offer camel rides, Jeep safaris, and views of sunset"
+    ]
+  },
+  {
+    "location": "Pushkar",
+    "facts": [
+      "Pushkar has one and only Brahma Temple in the world",
+      "Pushkar has the lake considered secret and has 52 ghats where pilgrims bathe",
+      "The Pushkar camel fair is one of the largest livestock fairs in the world, attracting both livestock traders and tourists",
+      "Pushkar is also known as the “rose garden” of Rajasthan and is a major center for cultivation"
+    ]
+  },
+  {
+    "location": "Bikaner",
+    "facts": [
+      "Bikaner is a desert oasis renowned for camel breeding and dry irrigation techniques",
+      "Bikaner has the temple called KARNI MATA TEMPLE also considered as “Rats Temple”",
+      "Bikaner has Lalgarh Palace built in the early 20th century, is a blend of European and Rajput architecture and is now a luxury hotel"
+    ]
+  },
+  {
+    "location": "Mandawa",
+    "facts": [
+      "Mandawa is a small town in Rajasthan, India, known as an \"open-air art gallery\" for its beautifully painted havelis (mansions)",
+      "Mandawa architecture reflects a fusion of Rajasthani, Mughal, and even European influences, showcasing its diverse cultural past",
+      "The best time to visit Mandawa during the winter months from October to March"
+    ]
+  },
+  {
+    "location": "Bundi",
+    "facts": [
+      "Bundi is nicknamed The “city of stepwells” is due to its numerous and intricate stepwells, some of which date back centuries",
+      "Bundi is also known as \"Chhoti Kashi,\" which translates to \"small Varanasi,\" highlighting its cultural and spiritual significance",
+      "Bundi features the 84-Pillared Cenotaph (Chaurasi Khambon Ki Chhatri), a majestic structure with 84 columns, showcasing intricate carvings of deer, elephants, and apsaras",
+      "Bundi is famous for its Rajput-style paintings, particularly the famous Ragmala series"
+    ]
+  },
+  {
+    "location": "Mount Abu",
+    "facts": [
+      "Mount Abu is a popular destination for both spiritual seekers and adventure enthusiasts",
+      "Mount Abu Guru Shikhar, the highest peak in the Aravalli Range, is located in Mount Abu",
+      "Mount Abu Wildlife Sanctuary is home to diverse flora and fauna, including leopards and sloth bear"
+    ]
+  }
+]

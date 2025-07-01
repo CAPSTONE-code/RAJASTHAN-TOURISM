@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="community.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajasthan Tourism - Community Forum</title>
+</head>
+
+<body>
+    <div class="nav">
+            <h1> R a j a s t h a n <span>||</span> T o u r i s m</h1>
+           <ul>
+            <li class="active"><a href="main.html">Home</a></li>
+            <li><a href="/places.html">Places</a></li>
+            <li><a href="/hospitals/hospitals.html">Health</a></li>
+            <li><a href="/guides/guide.html">Guide</a></li>
+            <li><a href="/sec/security.html">Security</a></li>
+            </ul>
+        </div>
+    <header class="sec-head">
+        <h2>Explore</h2>
+        <form>
+            <input placeholder="search">
+            <button id="search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+            </svg></button>
+        </form>
+        
+        <button id="log">login/signup</button>
+        <button id="new">+</button>
+        <dialog class="create-post">
+            <button class="close-dialog" aria-label="Close dialog">&times;</button>
+            <div class="wrapper">
+                <form class="submittion" method="dialog">
+                    <label>name</label>
+                    <input class="name" placeholder="enter name">
+                    <label>Topic</label>
+                    <input class="post-title" placeholder="post Topic">
+                    <label>Tags </label>
+                    <input class="post-tags" placeholder="tag keywords">
+                    <label>Text</label>
+                    <textarea class="post-description"></textarea>
+                    <button class="sub" >Post</button>
+                </form>
+            </div>
+        </dialog>
+    </header>
+    <main>
+        <header>
+
+        </header>
+        <aside>
+            <ul>
+                <li>home</li>
+                <li>popular</li>
+            </ul>
+            <hr>
+            <h3>Topics</h3>
+            <ul>
+                <li>places</li>
+                <li>Culture</li>
+                <li>Food</li>
+                <li>Travel</li>
+                <li>Services</li>
+            </ul>
+            <hr>
+            <h3>Tags</h3>
+            <ul>
+                <li># rajasthan</li>
+                <li>#jaipur</li>
+                <li>#jaisalmer</li>
+                <li>#photography</li>
+                <li>#food</li>
+            </ul>
+        </aside>
+        <main class="content">
+            <h2>Trending</h2>
+            
+        </main>
+    </main>
+    <script src="community.js"></script>
+</body>
+
+</html>

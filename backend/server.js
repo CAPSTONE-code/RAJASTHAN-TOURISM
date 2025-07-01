@@ -1,9 +1,8 @@
 require('dotenv').config()
 const express=require('express');
 const app=express();
-const dbData=require('./mongodbData')
-dbData.getdata('hospitals')
-
+const dbData=require('./mongodbData');
+const { data } = require('autoprefixer');
 
 
 
@@ -29,11 +28,15 @@ app.get('/api/tourist-guides', (request, response) => {
   else{
     dbData.getdata('guides',{City:cityName}).then(res=>response.json(res)).catch(err=>response.send(err))
   }
-
-
-  console.log(cityName)
 });
 
+app.get('/api/community',(request,response)=>{
+    dbData.randomData("community").then(res=>response.json(res)).catch(err=>response.send(err))
+  })
+app.post('./api/community/comment',(request,response)=>{
+  data=request.body
+  console.log(data)
+})
 
 
 const port = process.env.SERVER_PORT 

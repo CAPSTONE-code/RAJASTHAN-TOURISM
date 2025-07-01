@@ -19,7 +19,7 @@ to verify all the components are installed and working properly.
      mongodb       'npm install mongodb'
      dotenv        'npm install dotenv'
 
-5.after installing the npm pakages , run the Express server by running the command 'node ./backend/server.js' in terminal.
+5. after installing the npm pakages , run the Express server by running the command 'node ./backend/server.js' in terminal.
   if everything is done correctly terminal will show two messeges (server is running) and (connected sucessfully).
 
-6.now that website is connected to the backend we can run 'main.html' in web browser to access it 
+6. now that website is connected to the backend we can run 'main.html' in web browser to access it 

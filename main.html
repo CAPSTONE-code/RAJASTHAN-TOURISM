@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAJASTHAN TOURISM</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <link rel="stylesheet" href="main.css">
     <script>
         window.addEventListener('scroll', function() {
@@ -15,12 +16,56 @@
                 nav.classList.remove('scrolled');
             }
         });
+
+        // Add smooth scrolling to all links
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href^="#"]');
+            
+            for (const link of links) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            }
+        });
     </script>
    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize AOS
+            AOS.init({
+                duration: 800,
+                easing: 'ease-in-out',
+                once: true
+            });
+        });
+
+        // Page loader
+        window.addEventListener('load', function() {
+            const loader = document.querySelector('.page-loader');
+            if (loader) {
+                setTimeout(function() {
+                    loader.classList.add('loaded');
+                }, 500);
+            }
+        });
+    </script>
 </head>
 <body>
-    <header>
-        
+    <div class="page-loader">
+        <div class="loader"></div>
+    </div>
+    <header>      
         <div class="nav">
             <h1> R a j a s t h a n <span>||</span> T o u r i s m</h1>
            <ul>
@@ -42,7 +87,7 @@
         </div>
         <div class="mid">
             <div class="rajasthan">
-                <div class="para">
+                <div class="para" data-aos="fade-right" data-aos-duration="1000">
                 <h2>R a j a s t h a n , i n d i a</h2>
                 <p>Rajasthan Tourism offers a captivating blend of royal history, vibrant culture, and stunning landscapes.
                    Visitors can explore magnificent forts, palaces, and temples, particularly in cities like Jaipur, Udaipur, Jodhpur, and Jaisalmer.
@@ -52,39 +97,39 @@
                    Rajasthan is a must-visit destination for travelers seeking a memorable cultural journey.
                 </p>
             </div>
-            <div class="fimg"><img src="sources/fimg.jpeg" alt="" srcset=""></div>
-            <div class="simg"><img src="sources/simg.jpeg" alt=""></div>
-            <div class="timg"><img src="sources/timg.jpeg" alt="" srcset=""></div>
+            <div class="fimg" data-aos="fade-left" data-aos-delay="200"><img src="sources/fimg.jpeg" alt="Rajasthan Tourism Image" loading="lazy"></div>
+            <div class="simg" data-aos="fade-left" data-aos-delay="400"><img src="sources/simg.jpeg" alt="Rajasthan Tourism Image" loading="lazy"></div>
+            <div class="timg" data-aos="fade-left" data-aos-delay="600"><img src="sources/timg.jpeg" alt="Rajasthan Tourism Image" loading="lazy"></div>
         </div>
         </div>
         <div class="places">
-            <center><h2>_ p l a c e s _ t o _ v i s i t _</h2></center>
+            <center><h2 data-aos="fade-up" data-aos-duration="1000">_ p l a c e s _ t o _ v i s i t _</h2></center>
             <div class="firstline">
-                <div class="card">
-                    <div class="img"><img src="https://www.traveldailymedia.com/assets/2019/07/jaipur.jpg" alt="" srcset=""></div>
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="img"><img src="https://www.traveldailymedia.com/assets/2019/07/jaipur.jpg" alt="Jaipur" loading="lazy"></div>
                     <div class="cont">
                         <h3>-- J A I P U R</h3>
                         <p>Jaipur is a city of vibrant culture, stunning architecture, and rich history.
                              Its pink buildings and lively markets make it a unique destination.  &#8594; </p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="img"><img src="sources/udaipur.jpeg" alt="" srcset=""></div>
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="img"><img src="sources/udaipur.jpeg" alt="Udaipur" loading="lazy"></div>
                     <div class="cont">
                         <h3>-- U D A I P U R</h3>
                         <p>Udaipur, the "City of Lakes," is known for its stunning lakes, palaces, and serene beauty. 
                             It’s a perfect blend of history and tranquility.  &#8594;</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="img"><img src="sources/jodhpur.jpeg" alt="" srcset=""></div>
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="img"><img src="sources/jodhpur.jpeg" alt="Jodhpur" loading="lazy"></div>
                     <div class="cont">
                         <h3>-- J O D H P U R</h3>
                         <p>Jodhpur, the "Blue City," is famous for its blue houses and the grand Mehrangarh Fort, offering a rich blend of history and culture.  &#8594;</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="img"><img src="https://imgcld.yatra.com/ytimages/image/upload/v1462942314/Jaisalmer_History.jpg" alt="" srcset=""></div>
+                <div class="card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="img"><img src="https://imgcld.yatra.com/ytimages/image/upload/v1462942314/Jaisalmer_History.jpg" alt="Jaisalmer" loading="lazy"></div>
                     <div class="cont">
                         <h3>-- J A I S A L M E R</h3>
                         <p>Jaisalmer, the "Golden City," is famous for its sandstone architecture and the iconic Jaisalmer Fort in the Thar Desert.  &#8594;</p>
@@ -92,8 +137,30 @@
                 </div>
                
             </div>
-            <a href="places.html"><button>m o r e . .</button></a>
+            <a href="places.html" data-aos="zoom-in" data-aos-delay="500"><button>m o r e . .</button></a>
         </div>
+
+        <!-- Community Section -->
+        <section class="community-section">
+            <div class="community-container">
+                <div class="community-content" data-aos="fade-right" data-aos-duration="800">
+                    <h2>Join Our Community</h2>
+                    <p>Connect with fellow travelers, share your experiences, and discover hidden gems of Rajasthan through our active user forum.</p>
+                    <ul>
+                        <li data-aos="fade-up" data-aos-delay="100">Share your travel stories and photos</li>
+                        <li data-aos="fade-up" data-aos-delay="200">Get personalized travel recommendations</li>
+                        <li data-aos="fade-up" data-aos-delay="300">Connect with local guides and experts</li>
+                        <li data-aos="fade-up" data-aos-delay="400">Plan group trips with like-minded travelers</li>
+                    </ul>
+                    <a href="community/community.html" data-aos="fade-up" data-aos-delay="500">
+                        <button>Join the conversation</button>
+                    </a>
+                </div>
+                <div class="community-image" data-aos="fade-left" data-aos-duration="800">
+                    <img src="./sources/21_RoyalRajasthan.jpg" alt="Rajasthan Community" loading="lazy">
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <h3>rajasthan tourism</h3>
@@ -115,5 +182,3 @@
     </footer>
 </body>
 </html>
-
-<img>
