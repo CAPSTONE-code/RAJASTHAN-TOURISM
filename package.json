@@ -1,7 +1,7 @@
 {
   "name": "c",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,7 @@
     "express": "^5.1.0",
     "mongodb": "^6.16.0",
     "postcss-cli": "^11.0.1",
-    "tailwindcss": "^4.1.8"
+    "tailwindcss": "^4.1.8",
+    "vercel": "^44.2.7"
   }
 }
